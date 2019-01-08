@@ -1,0 +1,38 @@
+
+{
+    "pages": [
+     "pages/person/main",
+     "pages/logs/main", 
+     "pages/claisfy/main",
+     "pages/agree/main"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "",
+      "navigationBarTextStyle": "black"
+    },
+       "tabBar": {
+        "backgroundColor": "white",
+        "borderStyle": "",
+        "selectedColor": "#E89D0D",
+        "color": "#9F9F9F",
+        "list": [{
+          "selectedIconPath": "/static/imgs/shouyeActivite.png",  
+          "iconPath": "/static/imgs/shouye.png",
+          "pagePath": "pages/logs/main",
+          "text": "首页"
+        },{
+          "selectedIconPath": "/static/imgs/claisfyActivite.png",  
+          "iconPath": "/static/imgs/claisfy.png",
+          "pagePath": "pages/claisfy/main",
+          "text": "分类"
+        },{
+          "selectedIconPath": "/static/imgs/personActivite.png",  
+          "iconPath": "/static/imgs/person.png",
+          "pagePath": "pages/person/main",
+          "text": "我的"
+        }]
+   }
+  }
+  
